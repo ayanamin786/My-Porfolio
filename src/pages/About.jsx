@@ -110,18 +110,18 @@ export default function About() {
 
                   <div
                      data-aos="fade-left"
-                     className="rounded-xl border border-white/10 bg-[#0D0D0D] p-7 sm:p-10"
+                     className="rounded-xl border border-white/10 bg-[#01a0e9f8] p-7 sm:p-10"
                   >
 
-                     <p className="text-sm font-medium text-[#00B8E8]">
+                     <p className="text-sm font-medium text-[black]">
                         A LITTLE ABOUT ME
                      </p>
 
-                     <h3 className="mt-5 text-2xl font-bold">
+                     <h3 className="mt-5 text-2xl font-bold text-black">
                         Developer in Progress
                      </h3>
 
-                     <p className="mt-4 leading-8 text-gray-400">
+                     <p className="mt-4 leading-8 text-black">
                         I believe in learning by doing. Instead of only
                         studying concepts, I try to apply them by building
                         real projects and solving problems.
@@ -129,11 +129,11 @@ export default function About() {
 
                      <div className="mt-8 border-t border-white/10 pt-6">
 
-                        <p className="text-sm text-gray-500">
+                        <p className="text-sm text-black">
                            CURRENT FOCUS
                         </p>
 
-                        <p className="mt-2 font-medium text-white">
+                        <p className="mt-2 font-medium text-black">
                            React.js · Tailwind CSS · JavaScript
                         </p>
 

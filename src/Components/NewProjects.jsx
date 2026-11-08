@@ -103,18 +103,18 @@ export default function Projects() {
                      key={project.number}
                      data-aos="fade-up"
                      data-aos-delay={index * 100}
-                     className="overflow-hidden rounded-xl border border-white/10 bg-[#0D0D0D] transition duration-300 hover:border-[#00B8E8]/50"
+                     className="overflow-hidden rounded-xl border border-white/10 bg-[#01a0e9f8] transition duration-300 hover:border-[#00B8E8]/50"
                   >
 
                      {/* Project Preview */}
 
-                     <div className="relative h-64 overflow-hidden bg-[#151515]">
+                     <div className="relative h-64 overflow-hidden bg-[#01a0e9f8]">
 
                         <iframe
                            src={project.preview}
                            title={project.name}
                            loading="lazy"
-                           className="h-full w-full border-0 bg-white"
+                           className="h-full w-full border-0 bg-[#01a0e9f8]"
                         />
 
                      </div>
@@ -126,30 +126,30 @@ export default function Projects() {
 
                         <div className="mb-4 flex items-center justify-between">
 
-                           <span className="text-xs font-medium tracking-widest text-[#00B8E8]">
+                           <span className="text-xs font-medium tracking-widest text-[black]">
                               PROJECT {project.number}
                            </span>
 
-                           <span className="text-xs text-gray-500">
+                           <span className="text-xs text-black">
                               Personal Project
                            </span>
 
                         </div>
 
 
-                        <h3 className="text-xl font-semibold text-white">
+                        <h3 className="text-xl font-semibold text-black">
                            {project.name}
                         </h3>
 
 
-                        <p className="mt-3 min-h-[48px] text-sm leading-7 text-gray-400">
+                        <p className="mt-3 min-h-[48px] text-sm leading-7 text-black">
                            {project.description}
                         </p>
 
 
                         <div className="mt-5 border-t border-white/10 pt-4">
 
-                           <p className="text-xs text-gray-500">
+                           <p className="text-xs text-black">
                               {project.tech}
                            </p>
 
@@ -157,10 +157,12 @@ export default function Projects() {
                               href={project.link}
                               target="_blank"
                               rel="noopener noreferrer"
-                              className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-[#00B8E8] transition hover:text-white"
+                              className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-[black] transition hover:text-white"
                            >
                               View Project
-                              <span>↗</span>
+                               <svg className="w-5 h-5 ml-2" fill="currentColor" viewBox="0 0 20 20">
+            <path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd" />
+          </svg>
                            </a>
 
                         </div>
