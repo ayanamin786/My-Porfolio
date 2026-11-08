@@ -131,7 +131,7 @@ export default function Footer() {
                      className="inline-flex items-center gap-2 rounded-lg bg-[#00B8E8] px-5 py-3 text-sm font-semibold text-black transition hover:bg-white"
                   >
                      Contact Me
-                     <span>↗</span>
+                     <span></span>
                   </NavLink>
 
                </div>

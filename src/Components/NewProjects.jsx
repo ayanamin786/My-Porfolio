@@ -65,6 +65,7 @@ export default function Projects() {
 
                   <p className="mb-3 text-sm font-medium uppercase tracking-[3px] text-[#00B8E8]">
                      My Work
+                     
                   </p>
 
                   <h2 className="text-3xl font-bold sm:text-4xl">
@@ -83,7 +84,10 @@ export default function Projects() {
                   to="/projects"
                   className="border-b border-[#00B8E8] pb-1 text-sm font-medium text-[#00B8E8] transition hover:text-white"
                >
-                  View All Projects ↗
+                  View All Projects 
+                   <svg className="w-5 h-5 ml-2" fill="currentColor" viewBox="0 0 20 20">
+            <path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd" />
+          </svg>
                </NavLink>
 
             </div>

@@ -1,5 +1,6 @@
 import { Route, Routes} from "react-router-dom"
 import HomePage from "../pages/Home"
+import About from "../pages/About"
 
 const Navigation = () => {
 return(
@@ -7,11 +8,11 @@ return(
 
 <Routes>
    <Route path="/" element={<HomePage/>} />
-   {/* <Route path="/features" element={<Features />} />
-   <Route path="/how-it-works" element={<HowItWorks />} />
+   /* <Route path="/about" element={<About/>} />
+   {/* <Route path="/how-it-works" element={<HowItWorks />} />
    <Route path="/pricing" element={<Pricing />} />
    <Route path="/changelog" element={<Changelog />} />
-   <Route path="/download" element={<Download />} /> */}
+   <Route path="/download" element={<Download />} /> */ }
 </Routes>
 
 )
